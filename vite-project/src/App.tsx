@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import  pLogo from './../public/pFavicon.png'
+import tpang from './../public/toddpang-modified.png'
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://toddpang.com" target="_blank">
-          <img src={pLogo} className="logo react" alt="React logo" />
+          <img src={tpang} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + ToddPang</h1>
@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and P logos to learn more
       </p>
     </div>
   )
