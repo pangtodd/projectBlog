@@ -1,19 +1,21 @@
 import { useState } from 'react'
-import  pLogo from './../public/pFavicon.png'
-import tpang from './../public/toddpang-modified.png'
-import './App.css'
+import  pLogo from './assets/pFavicon.png'
+import tpang from './assets/toddpang-modified.png'
+import CardTemplate from './Components/CardTemplate'
+import './App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <CardTemplate/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src={pLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://toddpang.com" target="_blank">
-          <img src={tpang} className="logo react" alt="React logo" />
+          <img src={tpang} className="logo react" alt="toddpang logo" />
         </a>
       </div>
       <h1>Vite + ToddPang</h1>

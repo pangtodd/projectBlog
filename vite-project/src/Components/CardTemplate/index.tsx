@@ -1,13 +1,12 @@
 import React, {ReactElement, useEffect, useState} from 'react';
 import '../../index.css';
+import {Overlay} from './styles';
 
 function CardTemplate() {
   return(
-    <>
-      <div>
+    <Overlay>
         <h4>Now what you hear is just a test</h4>
-      </div>
-    </>
+    </Overlay>
   );
 }
 
