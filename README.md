@@ -17,7 +17,7 @@ A react app to document all of my self-directed projects.
 * CSS
 
 ## Description:
-Post graduation/internship, I started to do some small projects. I decided one good started project would be to create a personal blog using React. This serves two purposes: 1) it catalogs and allows me to go into depth about the projects I decide to take on. 2) it is in itself a project to help me brush up on React, TypeScript, and Firebase.
+Post graduation/internship, I started to do some small projects. I decided one good starter project would be to create a personal blog using React. This serves two purposes: 1) it catalogs and allows me to go into depth about the projects I decide to take on. 2) it is in itself a project to help me brush up on React, TypeScript, and Firebase.
 
 The following user stories were considered in planning this app:
 
