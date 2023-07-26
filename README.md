@@ -10,6 +10,7 @@ A react app to document all of my self-directed projects.
 * TypeScript
 * Firebase
 * Material UI
+* SASS
 * NPM
 * Vite.js
 * HTML
@@ -27,7 +28,7 @@ The following user stories were considered in planning this app:
 * As a admin user, I want to be able to log in and edit/delete a post.
 
 ## Diagram of components
-
+![diagram](./vite-project/src/assets/ReactProjectBlog.jpg?version%3D1690408267485)
 <!-- ![Diagram](./yrz-truly/src/img/yrzTrulyDiagram.jpg) -->
 in progress
 
@@ -35,7 +36,7 @@ in progress
 
 * If you don't have Git installed on your machine, follow these [instructions.](https://www.learnhowtoprogram.com/introduction-to-programming/getting-started-with-intro-to-programming/git-and-github)
 * Via your terminmal, navigate to the directory you want to store my files in.
-* Clone my git hub directory by typing or cutting pasting: "git clone https://github.com/pangtodd/yrzTruly.git" into your terminal.
+* Clone my git hub directory by typing or cutting pasting: "git clone https://github.com/pangtodd/projectBlog.git into your terminal.
 * open files in a code editor of your choice.
 * NOTE: this project was created in a Mac environment. There may be minor changes if you use a PC.
 * open terminal or bash, and navigate to the root level of the project, enter "npm install".
