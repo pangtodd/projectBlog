@@ -1,6 +1,6 @@
 import React, {ReactElement, useEffect, useState} from 'react';
 import '../../index.css';
-import {Overlay} from './styles';
+import {Overlay} from '../../Components/styles';
 
 function CardTemplate() {
   return(
