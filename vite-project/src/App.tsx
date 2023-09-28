@@ -2,6 +2,7 @@ import { useState } from 'react'
 import  pLogo from './assets/pFavicon.png'
 import tpang from './assets/toddpang-modified.png'
 import CardTemplate from './Components/CardTemplate'
+import Header from './Components/Header'
 import './App.scss'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <CardTemplate/>
+      <Header/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={pLogo} className="logo" alt="Vite logo" />
